@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Soft-Test</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarText">
+       <ul class="navbar-nav mr-auto">
+         <li class="nav-item">
+           <a class="nav-link" href="index.html">Home</a>
+         </li>
+         <li class="nav-item active">
+           <a class="nav-link" href="test_cases.html">Test Cases <span class="sr-only">(current)</span></a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="game_templates.html">Game Templates</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">Test Runs</a>
+         </li>
+       </ul>
+       <span class="navbar-text">
+         Sign Out
+       </span>
+     </div>
+</nav>
+<div class="container">
+
+  <br></br>
+  <h2>Test Run - Moji - v1.0.21</h2>
+<br><br>
+  <div class="input-group">
+    <div class="input-group-prepend">
+    <span class="input-group-text">#1</span>
+  </div>
+    <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Startup">
+    <div class="input-group-append">
+      <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action</button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Minimize List</a>
+        <a class="dropdown-item" href="#">Maximize List</a>
+        <div role="separator" class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Import Test Cases</a>
+      </div>
+    </div>
+
+    <table class="table">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">Test Order</th>
+          <th scope="col">Severity</th>
+          <th scope="col">Test Case</th>
+          <th scope="col">Status</th>
+          <th scope="col" class="text-right"></th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr>
+          <th>#1</th>
+          <th scope="row"><span class="badge badge-danger">Critical</span></th>
+          <td>Game Load</td>
+          <td><span class="badge badge-secondary">Waiting</span></td>
+          <td class="text-right">
+            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Start Testing</button>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <th>#2</th>
+          <th scope="row"><span class="badge badge-danger">Critical</span></th>
+          <td>Connect to backend</td>
+          <td><span class="badge badge-success">Complete</span></td>
+          <td class="text-right">
+            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+              <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">View Test</button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>#3</th>
+          <th scope="row"><span class="badge badge-danger">Critical</span></th>
+          <td>Global Leaderboard populated</td>
+          <td><span class="badge badge-warning">Incomplete</span></td>
+          <td class="text-right">
+            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Start Testing</button>
+            </div>
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+
+
+
+
+
+
+  </div>
+<br>
+
+  <div class="input-group">
+    <div class="input-group-prepend">
+    <span class="input-group-text">#2</span>
+  </div>
+    <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="In App Purchase">
+    <div class="input-group-append">
+      <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action</button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Show Test Cases</a>
+        <div role="separator" class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Move section Up</a>
+        <a class="dropdown-item" href="#">Move section Down</a>
+        <div role="separator" class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Import Test Cases</a>
+      </div>
+    </div>
+  </div>
+<br>
+
+
+  <div class="input-group">
+    <div class="input-group-prepend">
+    <span class="input-group-text">#3</span>
+  </div>
+    <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Rewarded Referrals">
+    <div class="input-group-append">
+      <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action</button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Show Test Cases</a>
+        <div role="separator" class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Move section Up</a>
+        <a class="dropdown-item" href="#">Move section Down</a>
+        <div role="separator" class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Add Test Cases</a>
+      </div>
+    </div>
+  </div>
+  <table class="table">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col">Test Order</th>
+        <th scope="col">Severity</th>
+        <th scope="col">Test Case</th>
+        <th scope="col" class="text-right"></th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <tr>
+        <th>#1</th>
+        <th scope="row"><span class="badge badge-danger">Critical</span></th>
+        <td>Rewarded Referrals - In Session </td>
+        <td class="text-right">
+          <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">View</button>
+                <div class="btn-group" role="group">
+              <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Action
+              </button>
+              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <a class="dropdown-item" href="#">Move Within Section</a>
+                <a class="dropdown-item" href="#">Change Section</a>
+                <a class="dropdown-item" href="#">Remove From Section</a>
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <th>#2</th>
+        <th scope="row"><span class="badge badge-danger">Critical</span></th>
+        <td>Rewarded Referrals - Out of Session </td>
+        <td class="text-right">
+          <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+            <button type="button" class="btn btn-primary">View</button>
+                <div class="btn-group" role="group">
+              <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Action
+              </button>
+              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <a class="dropdown-item" href="#">Move Within Section</a>
+                <a class="dropdown-item" href="#">Change Section</a>
+                <a class="dropdown-item" href="#">Remove From Section</a>
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+
+
+
+
+    </tbody>
+  </table>
+
+<div class="input-group">
+  <div class="input-group-prepend">
+  <span class="input-group-text">#4</span>
+</div>
+  <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Bot Opt-In">
+  <div class="input-group-append">
+    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action</button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Show Test Cases</a>
+      <div role="separator" class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Move section Up</a>
+      <a class="dropdown-item" href="#">Move section Down</a>
+      <div role="separator" class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Import Test Cases</a>
+    </div>
+  </div>
+</div>
+<br>
+
+<!-- Modal -->
+<div class="modal fade bd-example-modal-xl" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Rewarded Referrals - In Session</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h4>Description:</h4>
+        <p>Users are able to send referrals to other users. Then when the referred user joins the game the user is rewarded with coins.
+Reward requirements:
+      The user that is referred must have never played our game before
+      Host user can receive rewards in and out of session</p>
+      <h4>Test Prerequisite:</h4>
+      <p>2 new users in FB that are friends with each other (User A and User B)</p>
+      <h4>Steps:</h4>
+      <p>1. With User A Start the game.<br>
+2. After FTUE click on the referral icon on the map screen<br>
+3. Click on invite on the new popup<br>
+4. Select in messenger and then select User B to send the Invite to.<br>
+5. Do not close User As game.<br>
+6. With User B goto FB messenger and click on the link given in User A/B’s chat this will open our game<br>
+7. Back to User As game the referral icon should have a exclamation point - click on it.<br>
+8. Observe that User Bs avatar is now listed and you can claim the coin reward</br>
+9. Check that User A got the coins</p>
+
+
+<h4>Passing requirements</h4><br>
+<div class="container">
+  <div class="form-row">
+    <div class="card text-center">
+      <div class="card-header">
+        Passible Test Devices
+      </div>
+      <div class="card-body">
+        <table class="table">
+          <thead class="thead-light">
+            <tr>
+              
+              <th scope="col">Devices</th>
+              <th scope="col">Test Status</th>
+              <th scope="col">Ticket</th>
+              <th scope="col">Tester</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Firefox</td>
+              <td><div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-secondary">PASS</button>
+                    <button type="button" class="btn btn-secondary">FAIL</button>
+                    <button type="button" class="btn btn-secondary">INFO</button>
+                  </div>
+              </td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>iPhone6</td>
+              <td>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                      <button type="button" class="btn btn-secondary">PASS</button>
+                      <button type="button" class="btn btn-secondary">FAIL</button>
+                      <button type="button" class="btn btn-secondary">INFO</button>
+                    </div>
+              </td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>iPhone7</td>
+              <td>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                      <button type="button" class="btn btn-secondary">PASS</button>
+                      <button type="button" class="btn btn-danger">FAIL</button>
+                      <button type="button" class="btn btn-secondary">INFO</button>
+                    </div>
+              </td>
+              <td><button type="button" class="btn btn-primary">MOJI-134</button></td>
+              <td>David</td>
+            </tr>
+            <tr>
+              <td>Samsung G2043</td>
+              <td>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                      <button type="button" class="btn btn-success">PASS</button>
+                      <button type="button" class="btn btn-secondary">FAIL</button>
+                      <button type="button" class="btn btn-secondary">INFO</button>
+                    </div>
+              </td>
+              <td></td>
+              <td>James</td>
+            </tr>
+
+          </tbody>
+        </table>
+
+      </div>
+      <div class="card-footer text-muted">
+      </div>
+    </div>
+</div>
+
+
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+</div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

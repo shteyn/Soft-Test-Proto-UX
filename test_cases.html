@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Soft-Test</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarText">
+       <ul class="navbar-nav mr-auto">
+         <li class="nav-item">
+           <a class="nav-link" href="index.html">Home</a>
+         </li>
+         <li class="nav-item active">
+           <a class="nav-link" href="test_cases.html">Test Cases <span class="sr-only">(current)</span></a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="game_templates.html">Game Templates</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="testruns.html">Test Runs</a>
+         </li>
+       </ul>
+       <span class="navbar-text">
+         Sign Out
+       </span>
+     </div>
+</nav>
+<div class="container">
+  <br></br>
+  <h2>Test Cases List</h2>
+<div class="float-right"><a href="new_test_case.html"><button type="button" class="btn btn-primary">New Test Case</button></a></div>
+  <br></br>
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" href="#">All Games</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">COOK</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">SOLI</a>
+    </li>
+
+  </ul>
+
+
+<table class="table">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">Severity</th>
+      <th scope="col">Test Name</th>
+      <th scope="col">Games</th>
+      <th scope="col">Section</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><span class="badge badge-danger">Critical</span></th>
+      <td>Game Load</td>
+      <td><span class="badge badge-secondary">All Games</span></td>
+      <td>Startup</td>
+      <td><button type="button" class="btn btn-info">Edit</button></td>
+    </tr>
+    <tr>
+      <th scope="row"><span class="badge badge-danger">Critical</span></th>
+      <td>Connect to backend</td>
+      <td><span class="badge badge-secondary">All Games</span></td>
+      <td>Startup</td>
+      <td><button type="button" class="btn btn-info">Edit</button></td>
+    </tr>
+    <tr>
+      <th scope="row"><span class="badge badge-danger">Critical</span></th>
+      <td>Rewarded Referrals - In Session </td>
+      <td><span class="badge badge-success">COOK</span> <span class="badge badge-primary">OMT</span></td>
+      <td>Rewarded Referrals</td>
+      <td><a href="edit_rr.html"><button type="button" class="btn btn-info">Edit</button></a></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Soft-Test</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarText">
+       <ul class="navbar-nav mr-auto">
+         <li class="nav-item">
+           <a class="nav-link" href="index.html">Home</a>
+         </li>
+         <li class="nav-item active">
+           <a class="nav-link" href="#">Test Cases <span class="sr-only">(current)</span></a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">Game Templates</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="testruns.html">Test Runs</a>
+         </li>
+       </ul>
+       <span class="navbar-text">
+         Sign Out
+       </span>
+     </div>
+</nav>
+<div class="container">
+  <br></br>
+  <h2>New Test Case</h2>
+  <br></br>
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-8">
+        <label for="testtitle">Section</label>
+        <select class="custom-select">
+          <option selected>Choose the test Section</option>
+          <option value="1">IAP</option>
+          <option value="2">Backend</option>
+          <option value="3">Bot-Opt-in</option>
+          <option value="4">Add New Section.....</option>
+  </select>
+    </div>
+
+    <div class="form-group col-md-4">
+      <label for="severity">Severity</label>
+      <select class="custom-select">
+        <option selected>Choose the test severity</option>
+        <option value="1">Critical</option>
+        <option value="2">Normal</option>
+        <option value="3">Low</option>
+</select>
+  </div>
+</div>
+
+    <div class="form-group">
+        <label for="testtitle">Test Case Title</label>
+        <input type="email" class="form-control" id="testtitle" aria-describedby="testtitleHelp" placeholder="">
+        <small id="testtitleHelp" class="form-text text-muted">Sort title for the test case.</small>
+    </div>
+
+  <div class="form-group">
+    <label for="description">Description</label>
+    <textarea class="form-control" id="description" aria-describedby="descriptionHelp" rows="3"></textarea>
+    <small id="descriptionHelp" class="form-text text-muted">Description for the test. Whats is the use case and the expected results</small>
+  </div>
+
+  <div class="form-group">
+    <label for="description">Test Prerequisite</label>
+    <textarea class="form-control" id="description" aria-describedby="descriptionHelp" rows="3"></textarea>
+    <small id="descriptionHelp" class="form-text text-muted">Prerequisite for the test.</small>
+  </div>
+  <div class="form-group">
+    <label for="steps">Steps </label>
+    <textarea class="form-control" id="steps" aria-describedby="stepsHelp" rows="3"></textarea>
+    <small id="stepsHelp" class="form-text text-muted">Steps to conduct the test</small>
+  </div>
+
+<h3>Passing requirements</h3><br>
+  <div class="form-row">
+  <div class="form-group col-md-2">
+<label for="scenarioone">Device Groups</label>
+    <div class="custom-control custom-switch">
+
+      <input type="checkbox" class="custom-control-input" id="customSwitch1">
+      <label class="custom-control-label" for="customSwitch1">Browser</label>
+    </div>
+    <div class="custom-control custom-switch">
+      <input type="checkbox" class="custom-control-input" id="customSwitch2">
+      <label class="custom-control-label" for="customSwitch2">iPhone</label>
+    </div>
+    <div class="custom-control custom-switch">
+      <input type="checkbox" class="custom-control-input" id="customSwitch3">
+      <label class="custom-control-label" for="customSwitch3">Android</label>
+    </div>
+    <div class="custom-control custom-switch">
+      <input type="checkbox" class="custom-control-input" id="customSwitch4">
+      <label class="custom-control-label" for="customSwitch4">Old Android</label>
+    </div>
+
+</div>
+<div class="form-group col-md-3">
+<label for="scenarioone">Number of tests per group </label><br>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="1" checked>
+  <label class="form-check-label" for="inlineRadio1">1</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="2">
+  <label class="form-check-label" for="inlineRadio2">2</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="3">
+  <label class="form-check-label" for="inlineRadio3">3</label>
+</div>
+<br>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="1" checked>
+  <label class="form-check-label" for="inlineRadio1">1</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="2">
+  <label class="form-check-label" for="inlineRadio2">2</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="3">
+  <label class="form-check-label" for="inlineRadio3">3</label>
+</div>
+<br>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="1" checked>
+  <label class="form-check-label" for="inlineRadio1">1</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="2">
+  <label class="form-check-label" for="inlineRadio2">2</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="3">
+  <label class="form-check-label" for="inlineRadio3">3</label>
+</div>
+<br>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="1" checked>
+  <label class="form-check-label" for="inlineRadio1">1</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="2">
+  <label class="form-check-label" for="inlineRadio2">2</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="3">
+  <label class="form-check-label" for="inlineRadio3">3</label>
+</div>
+</div>
+<div class="form-group col-md-7">
+  <label for="scenarioone">Specific devices</label>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <label class="input-group-text" for="inputGroupSelect01">Browser</label>
+      <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="sr-only">Toggle Dropdown</span>
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Firefox</a>
+        <a class="dropdown-item" href="#">Chrome</a>
+        <a class="dropdown-item" href="#">IE</a>
+        <div role="separator" class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Edge</a>
+      </div>
+    </div>
+    <input type="text" class="form-control" aria-label="Text input with segmented dropdown button" placeholder="Firefox + Edge">
+  </div>
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <label class="input-group-text" for="inputGroupSelect01">iOS</label>
+      <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="sr-only">Toggle Dropdown</span>
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">iPhone 4</a>
+        <a class="dropdown-item" href="#">iPhone 5</a>
+        <a class="dropdown-item" href="#">iPhone 6</a>
+        <a class="dropdown-item" href="#">iPone</a>
+      </div>
+    </div>
+    <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+  </div>
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <label class="input-group-text" for="inputGroupSelect01">Android</label>
+      <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="sr-only">Toggle Dropdown</span>
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Crap 3</a>
+        <a class="dropdown-item" href="#">Universe 2021</a>
+        <a class="dropdown-item" href="#">Take Note</a>
+        <div role="separator" class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Hioway Without Honor 10</a>
+      </div>
+    </div>
+    <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+  </div>
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <label class="input-group-text" for="inputGroupSelect01">Old Android</label>
+      <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="sr-only">Toggle Dropdown</span>
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Old Timer</a>
+        <a class="dropdown-item" href="#">Nokia Broken Dream</a>
+        <a class="dropdown-item" href="#">Blackberries</a>
+        <div role="separator" class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">J3</a>
+      </div>
+    </div>
+    <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+  </div>
+
+</div>
+
+  </div>
+  <button type="button" class="btn btn-primary btn-lg">Save Test</button>
+<button type="button" class="btn btn-secondary btn-lg">Cancel</button>
+</form>
+<br><br>
+</div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

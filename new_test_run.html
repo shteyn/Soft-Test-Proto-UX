@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Soft-Test</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarText">
+       <ul class="navbar-nav mr-auto">
+         <li class="nav-item">
+           <a class="nav-link" href="index.html">Home</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="test_cases.html">Test Cases</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="game_templates.html">Game Templates</a>
+         </li>
+         <li class="nav-item active">
+           <a class="nav-link" href="testruns.html">Test Runs<span class="sr-only">(current)</span></a>
+         </li>
+       </ul>
+       <span class="navbar-text">
+         Sign Out
+       </span>
+     </div>
+</nav>
+<div class="container">
+  <br></br>
+  <h2>New Test Run</h2>
+  <br></br>
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-8">
+        <label for="testtitle">Game</label>
+        <select class="custom-select">
+          <option selected>Choose the test Section</option>
+          <option value="1">SOLI</option>
+          <option selected value="2">COOK</option>
+          <option value="3">OMT</option>
+          <option value="4">FISH</option>
+  </select>
+    </div>
+
+    <div class="form-group col-md-4">
+      <label for="severity"> Test Run Template</label>
+      <select class="custom-select">
+        <option >Choose the test severity</option>
+        <option selected value="1">COOK</option>
+        <option value="2">OMT</option>
+        <option value="3">FISH</option>
+</select>
+  </div>
+</div>
+<div class="form-row">
+  <div class="form-group col-md-4">
+
+        <label for="testtitle">Version</label>
+        <input type="email" class="form-control" id="testtitle" aria-describedby="testtitleHelp" placeholder="v2.30.2">
+        <small id="testtitleHelp" class="form-text text-muted">Version for this release</small>
+
+  </div>
+
+  <div class="form-group col-md-4">
+    <label for="testtitle">Jira</label>
+    <input type="email" class="form-control" id="testtitle" aria-describedby="testtitleHelp" placeholder="COOK-1257">
+    <small id="testtitleHelp" class="form-text text-muted">Paste the jira ticket for this release.</small>
+</div>
+<div class="form-group col-md-4">
+  <label for="severity">Regression Level</label>
+  <select class="custom-select">
+    <option >Choose the Regression severity</option>
+    <option selected value="1">Full Regression</option>
+    <option value="2">Critial Only</option>
+    <option value="3">----</option>
+</select>
+</div>
+</div>
+
+
+<div class="card text-center">
+  <div class="card-header">
+    Recomended test devices
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Select from recommended devices</h5>
+
+    <table class="table">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">Device Group</th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Browser</th>
+          <td>Firefox</td>
+        </tr>
+        <tr>
+          <th scope="row">iOS</th>
+          <td>
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+              <label class="custom-control-label" for="customRadioInline1">iPhone 6</label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+              <label class="custom-control-label" for="customRadioInline2">iPhone 7</label>
+            </div>
+
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Android</th>
+          <td>
+            <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline1">Samsung S6</label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline2">Samsung S3</label>
+          </div>
+        </td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+  <div class="card-footer text-muted">
+    <a href="#" class="btn btn-danger">Override</a>
+  </div>
+</div>
+
+
+
+
+
+<br>
+  <div class="form-group">
+    <label for="description">Notes</label>
+    <textarea class="form-control" id="description" aria-describedby="descriptionHelp" rows="3"></textarea>
+    <small id="descriptionHelp" class="form-text text-muted">Notes and focus points for the following test run</small>
+  </div>
+
+
+
+  <div class="form-row">
+  <div class="form-group col-md-2">
+
+</div>
+
+  </div>
+  <button type="button" class="btn btn-primary btn-lg">Save Test</button>
+<button type="button" class="btn btn-secondary btn-lg">Cancel</button>
+</form>
+<br><br>
+</div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

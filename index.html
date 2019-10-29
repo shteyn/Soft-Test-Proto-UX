@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Soft-Test</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarText">
+       <ul class="navbar-nav mr-auto">
+         <li class="nav-item active">
+           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="test_cases.html">Test Cases</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="game_templates.html">Game Templates</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="testruns.html">Test Runs</a>
+         </li>
+       </ul>
+       <span class="navbar-text">
+         Sign Out
+       </span>
+     </div>
+</nav>
+<div class="container">
+<br></br>
+<div class="row">
+  <div class="col-sm-4">
+    <div class="card text-center">
+      <div class="card-header">
+        Deploys this month
+      </div>
+      <div class="card-body">
+        <h1 class="card-title">19</h1>
+        <p class="card-text">Deploys completed for the month of March</p>
+        <a href="#" class="btn btn-primary">More details</a>
+      </div>
+      <div class="card-footer text-muted">
+        2 days ago
+      </div>
+    </div>
+  </div>
+<div class="col-sm-4">
+  <div class="card text-center">
+    <div class="card-header">
+      Test runs this month
+    </div>
+    <div class="card-body">
+      <h1 class="card-title">22</h1>
+      <p class="card-text">Test runs made on the month of March</p>
+      <a href="#" class="btn btn-primary">More details</a>
+    </div>
+    <div class="card-footer text-muted">
+      2 days ago
+    </div>
+  </div>
+</div>
+<div class="col-sm-4">
+  <div class="card text-center">
+    <div class="card-header">
+      Failed test runs this month
+    </div>
+    <div class="card-body">
+      <h1 class="card-title">0</h1>
+      <p class="card-text">Failed test runs for the month of March</p>
+      <a href="#" class="btn btn-primary">More details</a>
+    </div>
+    <div class="card-footer text-muted">
+      2 days ago
+    </div>
+  </div>
+</div>
+
+</div>
+
+  <br>
+  <h2> Running Test Runs</h2>
+
+<table class="table">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">Game</th>
+      <th scope="col">Version</th>
+      <th scope="col">Test Run</th>
+      <th scope="col">Date Started</th>
+      <th scope="col">Status</th>
+      <th scope="col">Testers</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><span class="badge badge-success">COOK</span></th>
+      <td>v3.20.2</td>
+      <td>#1</td>
+      <td>15:00pm 15.5.19</td>
+      <td><div class="progress" style="height: 35px;">
+  <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+</div></td>
+      <td>James</td>
+      <td class="text-right"><button type="button" class="btn btn-primary">Join</button></td>
+    </tr>
+    </tbody>
+</table>
+
+<br>
+<h2> Deploy status</h2>
+
+<table class="table">
+<thead class="thead-light">
+  <tr>
+    <th scope="col">Game</th>
+    <th scope="col">Version</th>
+    <th scope="col">Facebook Build</th>
+    <th scope="col">Deployed</th>
+    <th scope="col">Deployee</th>
+    <th scope="col">Jira</th>
+    <th scope="col">Last Production</th>
+    <th scope="col"></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th scope="row"><span class="badge badge-success">COOK</span></th>
+    <td>v2.45.0</td>
+    <td>#1007</td>
+    <td>15:00pm 15.5.19</td>
+    <td>James</td>
+    <td>COOK-1257</td>
+    <td>v2.43.0(999)</td>
+    <td class="text-right"><button type="button" class="btn btn-secondary">View</button></td>
+  </tr>
+  <tr>
+    <th scope="row"><span class="badge badge-primary">SOLI</span></th>
+    <td>v2.30.0</td>
+    <td>#1347</td>
+    <td>15:00pm 15.5.19</td>
+    <td>David</td>
+    <td>SOLI-1257</td>
+    <td>v2.43.0(1247)</td>
+    <td class="text-right"><button type="button" class="btn btn-secondary">View</button></td>
+  </tr>
+  </tbody>
+</table>
+
+
+</div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
